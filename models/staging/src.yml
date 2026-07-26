@@ -1,0 +1,10 @@
+   version: 2
+
+   source:
+
+        - name:ANALYTICSDBT
+ 
+          database:ANALYTICSDBT
+ 
+          tables:
+            - name: mouritech
