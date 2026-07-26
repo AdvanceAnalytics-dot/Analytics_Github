@@ -3,4 +3,4 @@
 select
 *
 from
-{{source('ANALYTICSDBT', 'mouritech') }}
+{{source('DATAENGINEER_TEST', 'mouritech') }}
