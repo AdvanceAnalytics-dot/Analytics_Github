@@ -1,10 +1,8 @@
    version: 2
 
-   source:
-
-        - name:ANALYTICSDBT
- 
-          database:ANALYTICSDBT
- 
-          tables:
+   sources:
+      - name: DATAENGINEER_TEST
+        database: ANALYTICSDBT
+        schema: DATAENGINEER_TEST
+        tables:
             - name: mouritech
