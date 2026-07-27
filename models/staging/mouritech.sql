@@ -2,4 +2,4 @@
 
 select
 *
-from {{ source('DATAENGINEER_TEST', 'mouritech') }}
+from {{ source('ANALYTICSDBT', 'mouritech') }}
