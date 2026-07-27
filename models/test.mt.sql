@@ -1,3 +1,3 @@
 {{ config(materialized='table') }}
 
-select * from DATAENGINEER_TEST.MOURITECH
+select * from {{ source('DATAENGINEER_TEST','mouritech') }}
