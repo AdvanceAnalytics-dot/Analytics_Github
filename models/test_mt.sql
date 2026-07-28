@@ -3,4 +3,4 @@ select
 name as emp_name,
 role as emp_role,
 mobile_number as contact
-from {{ source( 'DATAENGINEER_TEST'.'mouritech') }}
+from ANALYTICSDBT.DATAENGINEER_TEST.MOURITECH
