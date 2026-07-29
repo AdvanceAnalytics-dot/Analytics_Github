@@ -5,4 +5,4 @@ role as emp_role,
 location,
 case when location = 'Hyd' then 'GHMC' else '' end as loc_code,
 mobile_number as contact
-from {{ source('DATAENGINEER_TEST','MOURITECH') }}
+from {{ source('ANALYTICSDBT','MOURITECH') }}
