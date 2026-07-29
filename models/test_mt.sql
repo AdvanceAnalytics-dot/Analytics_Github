@@ -2,6 +2,7 @@
 select
 name as emp_name,
 role as emp_role,
-mobile_number as contact,
-case when contact = '1232415112' then '91' else '' end as code, 
+location,
+case when location = 'HYD' then 'GHMC' else '' end as code,
+mobile_number as contact
 from ANALYTICSDBT.DATAENGINEER_TEST.MOURITECH
