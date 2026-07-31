@@ -2,9 +2,9 @@
 
 {{
     config(
-        unique_key=
-        strategy=
-        update_at=
+        unique_key='CUST_NUMBER',
+        strategy='timestamp',
+        update_at='create_date'
     )
 }}
 select*
