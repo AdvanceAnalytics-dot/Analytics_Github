@@ -9,7 +9,7 @@ update_at
 from ANALYTICSDBT.DATAENGINEER_TEST.MOURITECH
 
 {% if is_incremental() %}
-WHERE updated_at >
+WHERE update_at >
 (
 SELECT MAX(update_at)
 FROM {{ this }}
