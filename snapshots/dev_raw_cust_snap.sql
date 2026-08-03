@@ -1,4 +1,4 @@
-{% snapshot DEV_RAW_CUST %}
+{% snapshot DEV_RAW_CUST_SNAP %}
 
 {{
 config(
