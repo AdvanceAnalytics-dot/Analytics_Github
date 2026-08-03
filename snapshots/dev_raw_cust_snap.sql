@@ -3,7 +3,7 @@
 {{
 config(
     unique_key='CUST_NUMBER',
-    strategy='timestamp',
+    strategy='check',
     check_clos='all'
 )
 }}
