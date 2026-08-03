@@ -4,7 +4,7 @@
 config(
     unique_key='CUST_NUMBER',
     strategy='check',
-    check_clos='all'
+    check_cols='all'
 )
 }}
 SELECT*
