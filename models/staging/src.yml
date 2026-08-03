@@ -1,8 +1,8 @@
 version: 2
  
 sources:
-  - name: Dev_cust
-    database: Dev_Raw
+  - name: DEV_RAW
+    database: DEV_RAW
     schema: Dev_cust
     tables:
       - name: customer

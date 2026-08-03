@@ -9,6 +9,6 @@ config(
 }}
 select*
 from
-{{ source( 'DEV_RAW','DEV_CUST') }}
+{{ source( 'DEV_RAW','CUSTOMER') }}
 
 {% endsnapshot %}
