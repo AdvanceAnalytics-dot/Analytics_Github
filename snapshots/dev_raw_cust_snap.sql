@@ -4,7 +4,7 @@
 config(
     unique_key='CUST_NUMBER',
     strategy='timestamp',
-    updated_at='last_updated'
+    check_clos='all'
 )
 }}
 SELECT*
