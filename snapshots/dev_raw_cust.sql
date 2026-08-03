@@ -1,13 +1,13 @@
-{% snapshot DEV_RAW_SNAP %}
+{% snapshot DEV_RAW_CUST %}
 
 {{
-    config(
+config(
         unique_key='CUST_NUMBER',
         strategy='timestamp',
         update_at='create_date'
-    )
+)
 }}
 select*
-from{{ source( 'DEV_CUST','CUSTOMER') }}
+from{{ source( 'DEV_RAW','DEV_CUST') }}
 
 {% endsnapshot %}
