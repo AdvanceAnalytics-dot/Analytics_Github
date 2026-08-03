@@ -1,16 +1,16 @@
 version: 2
-
+ 
 sources:
-   -name: Dataengineer_Test
-    database: AnalyticsDBt
-    schema: Dataengineer_Test
-
-    table:
-      -name: mouritech
-
-   -name: Dev_raw
-    database: Dev_raw
-    schema: Dev_cust
-
+  - name: DATAENGINEER_TEST
+    database: ANALYTICSDBT
+    schema: DATAENGINEER_TEST
+ 
     tables:
-      -name: customer
+      - name: MOURITECH
+ 
+  - name: DEV_RAW
+    database: DEV_RAW
+    schema: DEV_CUST
+ 
+    tables:
+      - name: CUSTOMER
