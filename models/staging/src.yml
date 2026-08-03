@@ -1,8 +1,8 @@
 version: 2
  
 sources:
-  - name: DATAENGINEER_TEST
-    database: ANALYTICSDBT
-    schema: DATAENGINEER_TEST
+  - name: Dev_cust
+    database: Dev_Raw
+    schema: Dev_cust
     tables:
-      - name: mouritech
+      - name: customer
