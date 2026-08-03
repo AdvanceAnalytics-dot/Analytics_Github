@@ -7,8 +7,8 @@ config(
     updated_at='last_updated'
 )
 }}
-select*
-from
+SELECT*
+FROM
 {{ source( 'DEV_RAW','CUSTOMER') }}
 
 {% endsnapshot %}
